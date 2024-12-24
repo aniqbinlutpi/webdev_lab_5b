@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+
+.error-message,
+.success-message {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+}
+
+
+.register-link {
+    display: block;  
+    text-align: center;  
+    margin-top: 20px;  
+    font-size: 16px;  
+    color: #007bff;  
+}
+
+.register-link:hover {
+    text-decoration: underline;  
+}
+
+/* Logout Link */.logout {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+
+.error-message, .success-message {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
